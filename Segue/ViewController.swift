@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //var stringpassed = "";
+    @IBOutlet weak var textv1: UITextView!
+    
+    @IBOutlet weak var img: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +23,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func Btn(_ sender: UIButton) {
+     
+       // var viewController2 = ViewController2();
+        let mvc = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        mvc.stringpassed = textv1.text!
+        mvc.theImagePassed = img.image!
+        navigationController?.pushViewController(mvc, animated: true)
+   
+    }
 }
 

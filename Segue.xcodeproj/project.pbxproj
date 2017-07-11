@@ -14,6 +14,7 @@
 		54A260C31F0CFFEC00EA3E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A260C11F0CFFEC00EA3E93 /* LaunchScreen.storyboard */; };
 		54A260CE1F0CFFEC00EA3E93 /* SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A260CD1F0CFFEC00EA3E93 /* SegueTests.swift */; };
 		54A260D91F0CFFEC00EA3E93 /* SegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A260D81F0CFFEC00EA3E93 /* SegueUITests.swift */; };
+		54A260E71F0D00BC00EA3E93 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A260E61F0D00BC00EA3E93 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		54A260D41F0CFFEC00EA3E93 /* SegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A260D81F0CFFEC00EA3E93 /* SegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueUITests.swift; sourceTree = "<group>"; };
 		54A260DA1F0CFFEC00EA3E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A260E61F0D00BC00EA3E93 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				54A260B81F0CFFEC00EA3E93 /* AppDelegate.swift */,
 				54A260BA1F0CFFEC00EA3E93 /* ViewController.swift */,
+				54A260E61F0D00BC00EA3E93 /* ViewController2.swift */,
 				54A260BC1F0CFFEC00EA3E93 /* Main.storyboard */,
 				54A260BF1F0CFFEC00EA3E93 /* Assets.xcassets */,
 				54A260C11F0CFFEC00EA3E93 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				54A260BB1F0CFFEC00EA3E93 /* ViewController.swift in Sources */,
 				54A260B91F0CFFEC00EA3E93 /* AppDelegate.swift in Sources */,
+				54A260E71F0D00BC00EA3E93 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.experts.Segue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,6 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.experts.Segue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +511,7 @@
 				54A260DF1F0CFFEC00EA3E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54A260E01F0CFFEC00EA3E93 /* Build configuration list for PBXNativeTarget "SegueTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				54A260E21F0CFFEC00EA3E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54A260E31F0CFFEC00EA3E93 /* Build configuration list for PBXNativeTarget "SegueUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				54A260E51F0CFFEC00EA3E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
